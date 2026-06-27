@@ -1,0 +1,190 @@
+/* --- CONFIGURAÇÃO GERAL --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- CORPO DA PÁGINA --- */
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+
+/* --- CABEÇALHO --- */
+.cabecalho {
+  background: linear-gradient(135deg, #1b0033, #003d1f);
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 4px solid #c77dff;
+}
+
+.cabecalho h1 {
+  color: #ffffff;
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+
+.cabecalho p {
+  color: #7cff9b;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* --- CONTEÚDO PRINCIPAL --- */
+.conteudo {
+  width: 92%;
+  max-width: 1250px;
+  margin: 35px auto;
+  padding: 10px;
+}
+
+/* --- CARD PRINCIPAL --- */
+.card {
+  background-color: #111111;
+  border: 2px solid #7cff9b;
+  border-radius: 18px;
+  padding: 40px;
+  box-shadow: 0 0 25px rgba(124, 255, 155, 0.25);
+}
+
+/* --- TÍTULOS SECUNDÁRIOS --- */
+.card h2 {
+  color: #d9a7ff;
+  font-size: 32px;
+  margin: 20px 0 18px;
+}
+
+/* --- PARÁGRAFOS JUSTIFICADOS --- */
+.card p {
+  font-size: 21px;
+  margin-bottom: 22px;
+  text-align: justify;
+}
+
+/* --- BOTÃO DA FONTE --- */
+.botao-fonte {
+  display: inline-block;
+  background-color: #7cff9b;
+  color: #000000;
+  padding: 12px 26px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 0 30px;
+}
+
+.botao-fonte:hover {
+  background-color: #d9a7ff;
+  color: #000000;
+}
+
+/* --- IMAGEM EDUCATIVA --- */
+.imagem-bullying {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto;
+  border-radius: 16px;
+  border: 3px solid #d9a7ff;
+  box-shadow: 0 0 20px rgba(217, 167, 255, 0.4);
+}
+
+/* --- LISTA DE DENÚNCIA --- */
+.lista-denuncia {
+  background-color: #050505;
+  border-left: 6px solid #7cff9b;
+  border-radius: 12px;
+  padding: 25px 40px;
+  margin-top: 20px;
+  list-style-type: square;
+}
+
+/* --- ITENS DA LISTA --- */
+.lista-denuncia li {
+  font-size: 20px;
+  margin-bottom: 14px;
+  text-align: justify;
+}
+
+/* --- DESTAQUE DOS CANAIS --- */
+.lista-denuncia strong {
+  color: #7cff9b;
+}
+
+/* --- BOTÃO DA MENSAGEM DE APOIO --- */
+.botao-apoio {
+  display: block;
+  margin: 35px auto 15px;
+  padding: 14px 30px;
+  background-color: #d9a7ff;
+  color: #000000;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-apoio:hover {
+  background-color: #7cff9b;
+}
+
+/* --- MENSAGEM DE APOIO --- */
+.mensagem-apoio {
+  font-size: 21px;
+  margin-top: 20px;
+  text-align: center;
+  color: #7cff9b;
+  font-weight: bold;
+}
+
+/* --- RODAPÉ --- */
+.rodape {
+  background-color: #111111;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-top: 4px solid #c77dff;
+}
+
+.rodape p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.rodape strong {
+  color: #7cff9b;
+}
+
+/* --- AJUSTE PARA CELULAR --- */
+@media (max-width: 600px) {
+  .cabecalho h1 {
+    font-size: 30px;
+  }
+
+  .cabecalho p {
+    font-size: 20px;
+  }
+
+  .conteudo {
+    width: 95%;
+  }
+
+  .card {
+    padding: 22px;
+  }
+
+  .card h2 {
+    font-size: 25px;
+  }
+
+  .card p,
+  .lista-denuncia li {
+    font-size: 17px;
+    text-align: left;
+  }
+}
